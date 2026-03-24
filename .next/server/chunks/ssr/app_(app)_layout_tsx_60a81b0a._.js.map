@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/varadcharholikar/Documents/Ikshvaku%20Innovations/yudha_vivas/app/%28app%29/layout.tsx"],"sourcesContent":["import { headers } from 'next/headers';\nimport { getAppConfig } from '@/lib/utils';\n\ninterface LayoutProps {\n  children: React.ReactNode;\n}\n\nexport default async function Layout({ children }: LayoutProps) {\n  const hdrs = await headers();\n  const { companyName, logo, logoDark } = await getAppConfig(hdrs);\n\n  return (\n    <>\n      <header className=\"fixed top-0 left-0 z-50 hidden w-full flex-row justify-between p-6 md:flex\"></header>\n\n      {children}\n    </>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAA;AACA;;;;AAMe,eAAe,OAAO,EAAE,QAAQ,EAAe;IAC5D,MAAM,OAAO,MAAM,IAAA,yQAAO;IAC1B,MAAM,EAAE,WAAW,EAAE,IAAI,EAAE,QAAQ,EAAE,GAAG,MAAM,IAAA,4HAAY,EAAC;IAE3D,qBACE;;0BACE,6WAAC;gBAAO,WAAU;;;;;;YAEjB;;;AAGP","debugId":null}}]
+}

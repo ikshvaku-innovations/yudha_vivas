@@ -1,0 +1,3 @@
+{
+  "/api/get-gcs-upload-url/route": "app/api/get-gcs-upload-url/route.js"
+}

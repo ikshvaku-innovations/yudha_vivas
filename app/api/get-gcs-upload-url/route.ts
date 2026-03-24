@@ -122,7 +122,7 @@ export async function POST(request: Request) {
       };
       return supportedMimeTypes[baseMimeType] || 'video/webm';
     };
-    
+
     const normalizedContentType = getNormalizedMimeType(contentType || 'video/webm');
 
     // Generate a signed URL for upload (valid for 1 hour)

@@ -1,0 +1,10 @@
+var R=require("../../../chunks/[turbopack]_runtime.js")("server/app/api/get-gcs-upload-url/route.js")
+R.c("server/chunks/b5d7d_next_d1bff36e._.js")
+R.c("server/chunks/bcdff_tr46_f2ec906a._.js")
+R.c("server/chunks/5acec_google-auth-library_ccf760c3._.js")
+R.c("server/chunks/bb436_@google-cloud_storage_5fc008b6._.js")
+R.c("server/chunks/node_modules__pnpm_5056cabc._.js")
+R.c("server/chunks/[root-of-the-server]__a2dc8334._.js")
+R.m("[project]/.next-internal/server/app/api/get-gcs-upload-url/route/actions.js [app-rsc] (server actions loader, ecmascript)")
+R.m("[project]/node_modules/.pnpm/next@15.5.2_react-dom@19.1.1_react@19.1.1__react@19.1.1/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/app/api/get-gcs-upload-url/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)")
+module.exports=R.m("[project]/node_modules/.pnpm/next@15.5.2_react-dom@19.1.1_react@19.1.1__react@19.1.1/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/app/api/get-gcs-upload-url/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)").exports
