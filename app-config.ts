@@ -21,8 +21,8 @@ export interface AppConfig {
 
 export const APP_CONFIG_DEFAULTS: AppConfig = {
   companyName: 'Ikshvaku Innovations',
-  pageTitle: 'Shaurya - AI-Driven Evaluation Platform | Complete Evaluation Prep',
-  pageDescription: 'Shaurya - AI-Driven Evaluation Platform | Complete Evaluation Prep',
+  pageTitle: 'Academic Pulse - AI-Driven Live Tutor Session | Personalized School Learning',
+  pageDescription: 'Academic Pulse - AI-Driven Live Tutor Session | Personalized School Learning',
 
   supportsChatInput: true,
   supportsVideoInput: true,
@@ -33,7 +33,7 @@ export const APP_CONFIG_DEFAULTS: AppConfig = {
   accent: '#002cf2',
   logoDark: '/opengraph-image-bg.png',
   accentDark: '#1fd5f9',
-  startButtonText: 'Start call',
+  startButtonText: 'Join Session',
 
   // for configuration
   sandboxId: undefined,

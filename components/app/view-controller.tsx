@@ -81,8 +81,8 @@ export function ViewController() {
       {isFinishingSession && !showThankYou && (
         <LoadingScreen
           key="saving-transcript"
-          title="Wrapping up your evaluation..."
-          description="Saving your transcript and finishing the evaluation. This only takes a moment."
+          title="Wrapping up your session..."
+          description="Getting everything ready to finish our live session. This only takes a moment."
         />
       )}
       {/* Welcome screen */}

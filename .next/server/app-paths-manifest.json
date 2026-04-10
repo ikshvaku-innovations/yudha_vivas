@@ -1,7 +1,6 @@
 {
+  "/(app)/opengraph-image-xg4ifa/route": "app/(app)/opengraph-image-xg4ifa/route.js",
   "/(app)/page": "app/(app)/page.js",
-  "/api/connection-details/route": "app/api/connection-details/route.js",
-  "/api/get-gcs-upload-url/route": "app/api/get-gcs-upload-url/route.js",
-  "/api/speed-test/route": "app/api/speed-test/route.js",
-  "/api/transcript/route": "app/api/transcript/route.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/speed-test/route": "app/api/speed-test/route.js"
 }

@@ -18,7 +18,7 @@ export function InvalidPage({ message }: InvalidPageProps = {}) {
         {/* Header */}
         <div className="text-center mb-10">
           <h1 className="text-4xl font-normal text-slate-900 mb-3 tracking-tight">
-            Unable to Start Evaluation
+            Unable to Start Session
           </h1>
           <p className="text-base text-slate-600 font-normal">
             {message ?? 'Please double-check the link you received and try again.'}
@@ -31,7 +31,7 @@ export function InvalidPage({ message }: InvalidPageProps = {}) {
             <div className="space-y-4 text-center">
               <p className="text-sm text-slate-600 leading-relaxed">
                 If you believe this is an error, please contact support or verify that you're using
-                the correct evaluation link.
+                the correct session link.
               </p>
             </div>
           </div>

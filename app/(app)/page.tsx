@@ -35,7 +35,7 @@ export default async function Page({ searchParams }: PageProps) {
       hasUrl: !!SUPABASE_URL,
       hasKey: !!SUPABASE_ANON_KEY,
     });
-    return <InvalidPage message="Evaluation configuration is incomplete. Please contact support." />;
+    return <InvalidPage message="Session configuration is incomplete. Please contact support." />;
   }
 
   if (sessionId) {
@@ -55,7 +55,7 @@ export default async function Page({ searchParams }: PageProps) {
 
         if (result?.completed) {
           return (
-            <InvalidPage message="This evaluation has already been completed. Thanks for participating!" />
+            <InvalidPage message="This session has already been completed. Great job today!" />
           );
         }
       } else {

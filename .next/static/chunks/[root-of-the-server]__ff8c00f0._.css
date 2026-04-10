@@ -835,6 +835,54 @@
     inset-inline: calc(var(--spacing) * 3);
   }
 
+  .start:not(:-webkit-any(:lang(ae), :lang(ar), :lang(arc), :lang(bcc), :lang(bqi), :lang(ckb), :lang(dv), :lang(fa), :lang(glk), :lang(he), :lang(ku), :lang(mzn), :lang(nqo), :lang(pnb), :lang(ps), :lang(sd), :lang(ug), :lang(ur), :lang(yi))) {
+    left: var(--spacing);
+  }
+
+  .start:not(:-moz-any(:lang(ae), :lang(ar), :lang(arc), :lang(bcc), :lang(bqi), :lang(ckb), :lang(dv), :lang(fa), :lang(glk), :lang(he), :lang(ku), :lang(mzn), :lang(nqo), :lang(pnb), :lang(ps), :lang(sd), :lang(ug), :lang(ur), :lang(yi))) {
+    left: var(--spacing);
+  }
+
+  .start:not(:is(:lang(ae), :lang(ar), :lang(arc), :lang(bcc), :lang(bqi), :lang(ckb), :lang(dv), :lang(fa), :lang(glk), :lang(he), :lang(ku), :lang(mzn), :lang(nqo), :lang(pnb), :lang(ps), :lang(sd), :lang(ug), :lang(ur), :lang(yi))) {
+    left: var(--spacing);
+  }
+
+  .start:-webkit-any(:lang(ae), :lang(ar), :lang(arc), :lang(bcc), :lang(bqi), :lang(ckb), :lang(dv), :lang(fa), :lang(glk), :lang(he), :lang(ku), :lang(mzn), :lang(nqo), :lang(pnb), :lang(ps), :lang(sd), :lang(ug), :lang(ur), :lang(yi)) {
+    right: var(--spacing);
+  }
+
+  .start:-moz-any(:lang(ae), :lang(ar), :lang(arc), :lang(bcc), :lang(bqi), :lang(ckb), :lang(dv), :lang(fa), :lang(glk), :lang(he), :lang(ku), :lang(mzn), :lang(nqo), :lang(pnb), :lang(ps), :lang(sd), :lang(ug), :lang(ur), :lang(yi)) {
+    right: var(--spacing);
+  }
+
+  .start:is(:lang(ae), :lang(ar), :lang(arc), :lang(bcc), :lang(bqi), :lang(ckb), :lang(dv), :lang(fa), :lang(glk), :lang(he), :lang(ku), :lang(mzn), :lang(nqo), :lang(pnb), :lang(ps), :lang(sd), :lang(ug), :lang(ur), :lang(yi)) {
+    right: var(--spacing);
+  }
+
+  .end:not(:-webkit-any(:lang(ae), :lang(ar), :lang(arc), :lang(bcc), :lang(bqi), :lang(ckb), :lang(dv), :lang(fa), :lang(glk), :lang(he), :lang(ku), :lang(mzn), :lang(nqo), :lang(pnb), :lang(ps), :lang(sd), :lang(ug), :lang(ur), :lang(yi))) {
+    right: var(--spacing);
+  }
+
+  .end:not(:-moz-any(:lang(ae), :lang(ar), :lang(arc), :lang(bcc), :lang(bqi), :lang(ckb), :lang(dv), :lang(fa), :lang(glk), :lang(he), :lang(ku), :lang(mzn), :lang(nqo), :lang(pnb), :lang(ps), :lang(sd), :lang(ug), :lang(ur), :lang(yi))) {
+    right: var(--spacing);
+  }
+
+  .end:not(:is(:lang(ae), :lang(ar), :lang(arc), :lang(bcc), :lang(bqi), :lang(ckb), :lang(dv), :lang(fa), :lang(glk), :lang(he), :lang(ku), :lang(mzn), :lang(nqo), :lang(pnb), :lang(ps), :lang(sd), :lang(ug), :lang(ur), :lang(yi))) {
+    right: var(--spacing);
+  }
+
+  .end:-webkit-any(:lang(ae), :lang(ar), :lang(arc), :lang(bcc), :lang(bqi), :lang(ckb), :lang(dv), :lang(fa), :lang(glk), :lang(he), :lang(ku), :lang(mzn), :lang(nqo), :lang(pnb), :lang(ps), :lang(sd), :lang(ug), :lang(ur), :lang(yi)) {
+    left: var(--spacing);
+  }
+
+  .end:-moz-any(:lang(ae), :lang(ar), :lang(arc), :lang(bcc), :lang(bqi), :lang(ckb), :lang(dv), :lang(fa), :lang(glk), :lang(he), :lang(ku), :lang(mzn), :lang(nqo), :lang(pnb), :lang(ps), :lang(sd), :lang(ug), :lang(ur), :lang(yi)) {
+    left: var(--spacing);
+  }
+
+  .end:is(:lang(ae), :lang(ar), :lang(arc), :lang(bcc), :lang(bqi), :lang(ckb), :lang(dv), :lang(fa), :lang(glk), :lang(he), :lang(ku), :lang(mzn), :lang(nqo), :lang(pnb), :lang(ps), :lang(sd), :lang(ug), :lang(ur), :lang(yi)) {
+    left: var(--spacing);
+  }
+
   .top-0 {
     top: calc(var(--spacing) * 0);
   }
@@ -3141,7 +3189,7 @@
   }
 
   .data-\[side\=bottom\]\:slide-in-from-top-2[data-side="bottom"] {
-    --tw-enter-translate-y: calc(var(--spacing) * 2 * -1);
+    --tw-enter-translate-y: calc(2 * var(--spacing) * -1);
   }
 
   .data-\[side\=left\]\:-translate-x-1[data-side="left"] {
@@ -3150,7 +3198,7 @@
   }
 
   .data-\[side\=left\]\:slide-in-from-right-2[data-side="left"] {
-    --tw-enter-translate-x: calc(var(--spacing) * 2);
+    --tw-enter-translate-x: calc(2 * var(--spacing));
   }
 
   .data-\[side\=right\]\:translate-x-1[data-side="right"] {
@@ -3159,7 +3207,7 @@
   }
 
   .data-\[side\=right\]\:slide-in-from-left-2[data-side="right"] {
-    --tw-enter-translate-x: calc(var(--spacing) * 2 * -1);
+    --tw-enter-translate-x: calc(2 * var(--spacing) * -1);
   }
 
   .data-\[side\=top\]\:-translate-y-1[data-side="top"] {
@@ -3168,7 +3216,7 @@
   }
 
   .data-\[side\=top\]\:slide-in-from-bottom-2[data-side="top"] {
-    --tw-enter-translate-y: calc(var(--spacing) * 2);
+    --tw-enter-translate-y: calc(2 * var(--spacing));
   }
 
   .data-\[size\=default\]\:h-9[data-size="default"] {

@@ -27,31 +27,31 @@ export const WelcomeView = ({ onNext, ref }: React.ComponentProps<'div'> & Welco
       icon: Microphone,
       title: 'Audio Communication',
       description:
-        'Ensure your microphone and speakers are working properly. Find a quiet, well-lit environment for the best evaluation experience. Speak clearly and at a natural pace.',
+        'Ensure your microphone and speakers are working properly. Find a quiet spot so you can focus and chat with your tutor easily.',
     },
     {
       icon: Headphones,
-      title: 'Active Listening',
+      title: 'Stay Curious',
       description:
-        'Listen carefully to each question before responding. Feel free to ask for clarification if needed. The evaluator is here to help you showcase your best self.',
+        'Don\'t hesitate to ask questions! This session is all about your curiosity and understanding. Your AI tutor is here to guide you.',
     },
     {
       icon: Clock,
-      title: 'Time Management',
+      title: 'Learn at Your Pace',
       description:
-        'Take your time to think through your responses. There is no need to rush. Quality answers are more valuable than quick ones.',
+        'Learning takes time. We\'ll go at a speed that\'s comfortable for you. Feel free to ask the tutor to explain things again or move forward.',
     },
     {
       icon: User,
-      title: 'Be Yourself',
+      title: 'Share Your Thoughts',
       description:
-        'Answer questions based on your own knowledge and experience. If you don\'t know something, it\'s perfectly fine to say so. Honesty and authenticity are valued.',
+        'Share your thoughts and ideas openly. There are no \'wrong\' questions here—every doubt is a step toward better learning.',
     },
     {
       icon: Lock,
-      title: 'Evaluation Integrity',
+      title: 'Focus & Fun',
       description:
-        'Please refrain from using external resources, search engines, or AI assistance during the evaluation. This ensures a fair evaluation process for all candidates.',
+        'To get the most out of this session, try to stay focused on the topic. Your tutor is here to help you master the concepts together.',
     },
   ];
 
@@ -61,10 +61,10 @@ export const WelcomeView = ({ onNext, ref }: React.ComponentProps<'div'> & Welco
         {/* Header */}
         <div className="text-center mb-10">
           <h1 className="text-4xl font-normal text-slate-900 mb-3 tracking-tight">
-            Welcome to Your Evaluation
+            Welcome to Your Live Study Session
           </h1>
           <p className="text-base text-slate-600 font-normal">
-            Please take a moment to review these guidelines
+            Ready to learn something new today?
           </p>
         </div>
 
@@ -119,8 +119,7 @@ export const WelcomeView = ({ onNext, ref }: React.ComponentProps<'div'> & Welco
                 htmlFor="agreement"
                 className="flex-1 text-sm text-slate-700 leading-relaxed cursor-pointer select-none"
               >
-                I understand and agree to follow all the guidelines above. I confirm that I will
-                participate honestly and to the best of my ability.
+                I'm ready to learn and will participate actively in today's session.
               </label>
             </div>
           </div>

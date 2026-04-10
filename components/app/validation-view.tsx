@@ -518,10 +518,10 @@ export const ValidationView = ({
         {/* Header */}
         <div className="text-center mb-10">
           <h1 className="text-4xl font-normal text-slate-900 mb-3 tracking-tight">
-            System Check
+            Classroom Setup
           </h1>
           <p className="text-base text-slate-600 font-normal">
-            We're verifying your system is ready for the evaluation
+            Let's make sure everything is ready for your live session.
           </p>
         </div>
 
@@ -687,11 +687,11 @@ export const ValidationView = ({
           >
             {allValidationsPassed ? (
               <span className="flex items-center gap-2">
-                Begin Evaluation
+                Start Session
                 <CheckCircle className="h-4 w-4" weight="bold" />
               </span>
             ) : (
-              'Begin Evaluation'
+              'Start Session'
             )}
           </button>
         </div>

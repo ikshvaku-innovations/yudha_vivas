@@ -73,10 +73,10 @@ export const ThankYouScreen = ({
         {/* Header */}
         <div className="text-center mb-10">
           <h1 className="text-4xl font-normal text-slate-900 mb-3 tracking-tight">
-            Thank You
+            Awesome Job!
           </h1>
           <p className="text-base text-slate-600 font-normal">
-            Thank you for participating in the evaluation. We appreciate your time and participation.
+            You've successfully completed your study session. Great progress today!
           </p>
         </div>
 
@@ -94,7 +94,7 @@ export const ThankYouScreen = ({
                   We'd love your feedback!
                 </h2>
                 <p className="text-sm text-slate-600 leading-relaxed">
-                  Your feedback helps us improve the evaluation experience
+                  Your feedback helps us make your learning journey even better.
                 </p>
               </div>
             </div>
@@ -152,7 +152,7 @@ export const ThankYouScreen = ({
                 id="feedback-text"
                 value={feedback}
                 onChange={(e) => !isSubmitted && setFeedback(e.target.value)}
-                placeholder="Share your thoughts about the evaluation experience..."
+                placeholder="How was your session with the AI tutor? What did you enjoy most?"
                 rows={4}
                 disabled={isSubmitted}
                 className={cn(

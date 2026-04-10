@@ -298,7 +298,7 @@ async def entrypoint(ctx: JobContext):
         ),
         llm=google.LLM(
             model="gemini-2.5-flash",
-            api_key="AIzaSyB_PSUHKkUzZutjuoeP5wjtO5ZaFeVistk",
+            api_key="AIzaSyB6frSseOsu4gR7Gn084lYZG_095X-EZuM",
         ),
         # tts=sarvam.TTS(
         #     target_language_code="en-IN",
