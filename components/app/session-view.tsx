@@ -335,9 +335,9 @@ export const SessionView = ({
         open={showEndCallDialog}
         onOpenChange={setShowEndCallDialog}
         onConfirm={handleConfirmEndCall}
-        title="End Call"
-        description="Are you sure you want to end the call? This action cannot be undone."
-        confirmText="End Call"
+        title="End Session"
+        description="Are you sure you want to end your study session? You can always come back to master more topics later!"
+        confirmText="End Session"
         cancelText="Cancel"
       />
     </section>

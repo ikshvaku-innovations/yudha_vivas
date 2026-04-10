@@ -20,9 +20,9 @@ export function ConfirmDialog({
   open,
   onOpenChange,
   onConfirm,
-  title = 'End Call',
-  description = 'Are you sure you want to end the call?',
-  confirmText = 'End Call',
+  title = 'End Session',
+  description = 'Are you sure you want to end your study session?',
+  confirmText = 'End Session',
   cancelText = 'Cancel',
 }: ConfirmDialogProps) {
   const handleConfirm = () => {
