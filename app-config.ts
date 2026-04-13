@@ -21,8 +21,8 @@ export interface AppConfig {
 
 export const APP_CONFIG_DEFAULTS: AppConfig = {
   companyName: 'Ikshvaku Innovations',
-  pageTitle: 'Academic Pulse - AI-Driven Live Tutor Session | Personalized School Learning',
-  pageDescription: 'Academic Pulse - AI-Driven Live Tutor Session | Personalized School Learning',
+  pageTitle: 'Yudha Vivas - AI Evaluator | Advanced Assessment Platform',
+  pageDescription: 'Yudha Vivas - AI Evaluator | Advanced Assessment Platform',
 
   supportsChatInput: true,
   supportsVideoInput: true,

@@ -27,31 +27,31 @@ export const WelcomeView = ({ onNext, ref }: React.ComponentProps<'div'> & Welco
       icon: Microphone,
       title: 'Audio Communication',
       description:
-        'Ensure your microphone and speakers are working properly. Find a quiet spot so you can focus and chat with your tutor easily.',
+        'Ensure your microphone and speakers are working properly. Find a quiet spot so you can focus and complete your assessment easily.',
     },
     {
       icon: Headphones,
-      title: 'Stay Curious',
+      title: 'Showcase Your Mastery',
       description:
-        'Don\'t hesitate to ask questions! This session is all about your curiosity and understanding. Your AI tutor is here to guide you.',
+        'Every response matters! This session is all about evaluating your understanding. Your AI Evaluator is here to assess your progress.',
     },
     {
       icon: Clock,
-      title: 'Learn at Your Pace',
+      title: 'Evaluation Process',
       description:
-        'Learning takes time. We\'ll go at a speed that\'s comfortable for you. Feel free to ask the tutor to explain things again or move forward.',
+        'Assessments take time. We\'ll progress at a pace that ensures a thorough evaluation. The AI Evaluator will guide you through the process.',
     },
     {
       icon: User,
-      title: 'Share Your Thoughts',
+      title: 'Confidence is Key',
       description:
-        'Share your thoughts and ideas openly. There are no \'wrong\' questions here—every doubt is a step toward better learning.',
+        'Express your thoughts and solutions clearly. Every insight you provide is a step toward a comprehensive assessment.',
     },
     {
       icon: Lock,
-      title: 'Focus & Fun',
+      title: 'Focus & Perform',
       description:
-        'To get the most out of this session, try to stay focused on the topic. Your tutor is here to help you master the concepts together.',
+        'To get the most out of this session, try to stay focused on the tasks. Your AI Evaluator is here to help you showcase your understanding.',
     },
   ];
 
@@ -61,10 +61,10 @@ export const WelcomeView = ({ onNext, ref }: React.ComponentProps<'div'> & Welco
         {/* Header */}
         <div className="text-center mb-10">
           <h1 className="text-4xl font-normal text-slate-900 mb-3 tracking-tight">
-            Welcome to Your Live Study Session
+            Welcome to Yudha Vivas: AI Evaluator
           </h1>
           <p className="text-base text-slate-600 font-normal">
-            Ready to learn something new today?
+            Ready for your evaluation today?
           </p>
         </div>
 
@@ -119,7 +119,7 @@ export const WelcomeView = ({ onNext, ref }: React.ComponentProps<'div'> & Welco
                 htmlFor="agreement"
                 className="flex-1 text-sm text-slate-700 leading-relaxed cursor-pointer select-none"
               >
-                I'm ready to learn and will participate actively in today's session.
+                I'm ready for the evaluation and will participate actively in today's session.
               </label>
             </div>
           </div>

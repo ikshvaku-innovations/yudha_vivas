@@ -157,22 +157,22 @@ class Assistant(Agent):
         )
 
         instructions = f"""
-You are an AI interviewer for the {interview_data.position_name} position.
+You are an AI Evaluator for the {interview_data.position_name} position.
 
 CANDIDATE INFORMATION:
 - Name: {interview_data.candidate_name}
 - Level: {interview_data.level}
 - Duration: {interview_data.duration}
 
-INTERVIEW STRUCTURE:
-You must conduct an interview with the following questions:
+EVALUATION STRUCTURE:
+You must conduct an evaluation with the following questions:
 
 {questions_text}
 
-INTERVIEW RULES:
-- Start by greeting the candidate by name and asking them to introduce themselves and explain their interest in the role
+EVALUATION RULES:
+- Start by greeting the candidate by name and asking them to introduce themselves and share their background related to this evaluation
 - Track time carefully 
-- Reserve the last 2 minutes for candidate questions about the company/role
+- Reserve the last 2 minutes for any questions the candidate might have about the process
 - For each question:
   * If the answer is correct: Move to next question
   * If answer is partially correct: Ask up to 2 follow-up questions maximum then move to the next question
@@ -180,9 +180,9 @@ INTERVIEW RULES:
 - Move through questions systematically in order
 - Never mention the question number; just naturally ask the questions
 - If all questions are covered before time ends, ask if candidate has questions about the role or company
-- When interview time ends or all questions are covered, politely inform the candidate and ask them to click the end call button
-- Always stick to the interview.
-- Never make up information or ask questions that are not in the interview.
+- When evaluation time ends or all questions are covered, politely inform the candidate and ask them to click the end call button
+- Always stick to the evaluation.
+- Never make up information or ask questions that are not in the evaluation blueprint.
 
 TIME MANAGEMENT:
 - Monitor elapsed time throughout the interview
@@ -373,7 +373,7 @@ async def entrypoint(ctx: JobContext):
     logger.info(f"Interview started at {assistant.interview_start_time}")
 
     # Make the agent speak first with a personalized greeting
-    greeting = f"Hello {interview_data.candidate_name}! Thank you for joining this interview today. I'm your AI interviewer for the {interview_data.position_name} position. To start, could you please tell me a bit about yourself and why you're interested in this role?"
+    greeting = f"Hello {interview_data.candidate_name}! Thank you for joining this evaluation today. I'm your AI Evaluator for the {interview_data.position_name} position. To start, could you please tell me a bit about yourself and your experience in this field?"
 
     await session.say(
         greeting,

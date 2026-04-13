@@ -11,16 +11,16 @@ interface LoadingScreenProps {
 }
 
 const tips = [
-  'Get ready to explore and learn something new!',
-  'Your AI tutor is here to help you understand every concept.',
-  'Feel free to ask questions anytime during the session.',
+  'Get ready for your AI evaluation!',
+  'Your AI Evaluator is here to assess your proficiency.',
+  'Feel free to clarify the questions anytime during the session.',
   'Stay curious and speak your mind openly.',
   'Every doubt you clear is a step toward mastery.',
 ];
 
 export const LoadingScreen = ({
   className,
-  title = 'Waiting for your AI Tutor to join...',
+  title = 'Waiting for your AI Evaluator to join...',
   description,
 }: LoadingScreenProps) => {
   const [currentTipIndex, setCurrentTipIndex] = useState(0);

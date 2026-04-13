@@ -518,10 +518,10 @@ export const ValidationView = ({
         {/* Header */}
         <div className="text-center mb-10">
           <h1 className="text-4xl font-normal text-slate-900 mb-3 tracking-tight">
-            Classroom Setup
+            Evaluator Setup
           </h1>
           <p className="text-base text-slate-600 font-normal">
-            Let's make sure everything is ready for your live session.
+            Let's make sure everything is ready for your evaluation session.
           </p>
         </div>
 
